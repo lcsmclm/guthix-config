@@ -1,0 +1,8 @@
+*
+!fastfetch/
+!fastfetch/**
+!waybar/
+!waybar/**
+!alacritty/
+!alacritty/**
+!.gitignore

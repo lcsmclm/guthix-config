@@ -1,0 +1,51 @@
+# ── Cursor & Selection Colours ───────────────────────────────────────────
+[colors.cursor]
+cursor = "#a9f6ff"
+text   = "#59d97b"
+
+[colors.selection]
+text       = "#a9f6ff"
+background = "#101c1f"
+
+# ── Primary Colours ───────────────────────────────────────────────────────
+[colors.primary]
+background = "#101c1f"
+foreground = "#59d97b"
+
+# ── ANS ────────────────────────────────────────────────
+[colors.normal]
+black   = "#2e3440"
+red     = "#a9f6ff"
+green   = "#59d97b"
+yellow  = "#e5c07b"
+blue    = "#a9f6ff"
+magenta = "#c678dd"
+cyan    = "#59d97b"
+white   = "#dad6ae"
+
+# ── Font Settings ────────────────────────────────────────────────────────
+[font]
+size = 10.0
+
+[font.bold]
+family = "JetBrains Mono"
+style  = "Bold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style  = "Bold Italic"
+
+[font.italic]
+family = "JetBrains Mono"
+style  = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style  = "Regular"
+
+# ── Mouse & Environment ───────────────────────────────────────────────────
+[mouse]
+hide_when_typing = true
+
+[env]
+TERM = "xterm-256color"

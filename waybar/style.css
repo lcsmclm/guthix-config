@@ -1,0 +1,51 @@
+/* GUTHIX-LAB */
+
+#pulseaudio.muted {
+  color: #FF7E7E;
+}
+
+#bluetooth.disabled {
+  color: #FF7E7E;
+}
+
+#network.disconnected {
+  color: #FF7E7E;
+}
+
+
+#waybar {
+  border: 2px solid #59d97b;
+  background: #101c1f;
+  color: #59d97b;
+}
+
+
+waybar * {
+  border: 2px;
+  min-height: 0;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+}
+
+.modules-left {
+  margin-left: 1rem;
+}
+
+.modules-left .module,
+.modules-right .module {
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+}
+
+tooltip {
+  color: #59d97b;
+  background-color: #101c1f;
+  border-radius: 0;
+  padding: 0.5rem;
+  border: 1px solid #59d97b;
+  font-weight: bold;
+}
+
+tooltip label {
+  color: #59d97b;
+}
